@@ -80,6 +80,26 @@ body {
   
 }
 
+@media screen and (max-width:420px) {
+  body {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .btn_circle {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    padding: 0;
+    border-radius: 50%;
+    border: 0px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+    background-color: #bfdbfe;
+    font-size: 25px;
+  }
+  
+}
+
 /* カラー参考用 */
 #btn1 {
   background-color: #bfdbfe;
